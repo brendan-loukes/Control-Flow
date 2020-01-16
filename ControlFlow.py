@@ -1,8 +1,8 @@
-"""
-Programmer: Brendan Loukes
-Date: 12.16.19
-Program: Guess My Number
-"""
+
+# Programmer: Brendan Loukes
+# Date: 12.16.19
+# Program: Guess My Number
+
 
 
 MyNumber = 7
@@ -24,11 +24,11 @@ print("\nCongratulations, you guessed my number!!!\n")
 
 
 
-"""
-Programmer: Brendan Loukes
-Date: 12.19.19
-Program: 1 - 10
-"""
+
+# Programmer: Brendan Loukes
+# Date: 12.19.19
+# Program: 1 - 10
+
 
 x = 1
 
