@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # Programmer: Brendan Loukes
 # Date: 12.16.19
 # Program: Guess My Number
@@ -40,7 +39,7 @@ x = 1
 while x <= 10:
         print(x)
         x+=1
-=======
+
 #Programmer: Brendan Loukes
 #Date: 1.6.20
 #Program: Running Total, Part II
@@ -78,5 +77,3 @@ for i in range(how_many_tests):
 Average = total / how_many_tests
 
 print("\nAverage: " + str(round(Average, 2)))
-
->>>>>>> ForLoops
