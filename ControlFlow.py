@@ -3,32 +3,25 @@
 # Date: 12.16.19
 # Program: Guess My Number
 
+myNumber = 7
 
-
-MyNumber = 7
-
-print("\nGuess a number between 1 & 10\n")
+print("\nGuess a number between One & Ten\n")
 
 # Ask users to guess
 guess = int(input("Enter a Guess: "))
 
 # Keep asking users to guess my number until
-# it is equal to MyNumber
-while guess != MyNumber:
-        print("\nNope, guess again: ")
-        guess = int(input("Enter a Guess: "))
+# it is equal to myNumber
+while guess != myNumber:
+    print("\nNope, guess again: ")
+    guess = int(input("Enter a Guess: "))
 
-print("\nCongratulations, you guessed my number!!!\n")
-
-
-
-
+print ("\nCongrats homie, you's is right!!\n")
 
 
 # Programmer: Brendan Loukes
 # Date: 12.19.19
-# Program: 1 - 10
-
+# Program: 1 Through 10
 
 x = 1
 
@@ -37,15 +30,15 @@ x = 1
 # has been met
 
 while x <= 10:
-        print(x)
-        x+=1
+    print(x)
+    x += 1
 
-#Programmer: Brendan Loukes
-#Date: 1.6.20
-#Program: Running Total, Part II
+# Programmer: Brendan Loukes
+# Date: 1.6.20
+# Program: Running Total; Part II
 
-#This program asks users for five numbers
-#It then sums up the numbers
+# This program asks users for five numbers
+# It then sums up the numbers
 
 
 sum = 0
@@ -59,21 +52,53 @@ for i in range(how_many_numbers):
 print("\nSum of your numbers is: " + str(sum))
 
 
-#Programmer: Brendan Loukes
-#Date: 1.7.20
-#Program: Average Test Scores
+# Programmer: Brendan Loukes
+# Date: 1.20.20
+# Program: Double For Loop
 
-#This program asks users how many tests they wish to average
+for i in range(3):
+    print("Outer For Loop " + str(i))
+    for k in range(4):
+        print ("\tInner for Loop " + str(k))
+
+print("\n**********************\n")
+
+# Programmer: Brendan Loukes
+# Date: 1.7.20
+# Program: Average Test Score
+
+# This program asks users how many tests they wish to average
 
 
 total = 0
-how_many_tests = int(input("\nHow many tests would you like to average: "))
+how_many_tests = int(input("How many tests would you like to average: "))
 print("")
 
 for i in range(how_many_tests):
     enter_a_score = float(input("Enter a score: "))
     total = total + enter_a_score
 
-Average = total / how_many_tests
+average = total / how_many_tests
 
-print("\nAverage: " + str(round(Average, 2)))
+print("\nYour average test score is: " + str(round(average, 2)))
+
+
+
+
+
+
+print("\n**********************\n")
+
+"""
+Programmer: Brendan Loukes
+Date: 1.23.20
+Program: While Loop nested inside of a For Loop
+"""
+
+for i in range(4):
+    print("For Loop: " + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop: " + str(x))
+        x = x - 1
+
