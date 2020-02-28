@@ -37,13 +37,26 @@ def printMultipleTimes(string, times):
         print(string)
 
 # Cal Functions Here
+    print("\nGreetings Function\n")
+    greeting()
 
-# greeting()
-# printSomething()
-# print(x)
-# printNumber(28)
-# printNumber(38)
-Printtwonumbers(23,78)
-Printtwonumber(45)
-#printSum(1,17)
-printMultipleTimes("I love computer Science", 13)
+    print("\nPrint Something Funtions\n")
+    printSomething()
+
+#print(x)
+
+print("\nPrint number funciton\n")
+printnumber(28)
+printnumber(38)
+
+print("\nprint two numbers function\n")
+printtwonumbers(23,78)
+
+print("\ndefault Patameter Values Function\n")
+printtwonumbers(45)
+printSum(1,17)
+
+print("\nPrint Multiple Times Function\n")
+printMultipletimes("I love Computer Science", 13)
+
+print("\nThanks for hanging out with me through my functions")
