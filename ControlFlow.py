@@ -27,13 +27,18 @@ def printNumbers(age); #function name = printNumber with a PARAMETER of age
 def printtwonumbers(x,y=71):
     print("First Parameter(Number):"+str(x))
     print("Second Parameter(Number):" + str(x))
-#Call Functions Here
 
-#greeting()
-#printSomething()
-Print(x)
-printNumber(28)
-print Number(38)
+#Print Sum
+def printSum(x,y):
+    print(x + y)
 
+# Cal Functions Here
+
+# greeting()
+# printSomething()
+# print(x)
+# printNumber(28)
+# printtNumber(38)
 Printtwonumbers(23,78)
 Printtwonumber(45)
+printSum(1,17)
