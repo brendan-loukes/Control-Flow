@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Programmer: Brendan Loukes
 # Date: 12.16.19
@@ -103,10 +103,9 @@ for i in range(4):
         print("\tWhile Loop: " + str(x))
         x = x - 1
 
-<<<<<<< HEAD
-=======
+
 print("\nAverage: " + str(round(Average, 2)))
-=======
+
 # Date 2.3.20
 
 #Programmer: Brenda Loukes
@@ -129,7 +128,7 @@ def printSomethng():
     x=3
     print(x)
 # Functions and Parameters
-def printNumbers(age); #function name = printNumber with a PARAMETER of age
+def printNumbers(age): #function name = printNumber with a PARAMETER of age
     print(age)
 
 # Default Parameter values
@@ -169,5 +168,4 @@ print("\nPrint Multiple Times Function\n")
 printMultipletimes("I love Computer Science", 13)
 
 print("\nThanks for hanging out with me through my functions")
->>>>>>> Functions&Paramiters
->>>>>>> Development
+
